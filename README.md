@@ -1,7 +1,32 @@
+# Aos-Animate⭐⭐⭐⭐⭐
+
 ![Banner](public/aos-animate.PNG)
 <p align="center" style="color: white;">
     <img src="https://profile-counter.glitch.me/Juanes200122/count.svg" />
 </p>
+
+<p>
+    <a href="https://www.linkedin.com/in/juan-estaban-ar%C3%A9valo-056bab240/" target="_blank" rel="Linkedin">
+      <img src="https://img.shields.io/badge/-@JuanEsteban-0077B5?style=flat-square&amp;labelColor=0077B5&amp;logo=LinkedIn&amp;link=https://www.linkedin.com/in/juan-estaban-ar%C3%A9valo-056bab240/" alt="LinkedIn Badge">
+    </a> 
+    <a href="https://www.instagram.com/jeacsi.official_022?igsh=MWJ6MHRwcnhoZXVxbQ==" target="_blank" rel="Instagram">
+      <img src="https://img.shields.io/badge/-@jeacsi.official_022-purple?style=flat&logo=instagram&logoColor=white&link=https://www.instagram.com/jeacsi.official_022?igsh=MWJ6MHRwcnhoZXVxbQ==" alt="Instagram Badge">
+    </a>
+</p>
+<p>AOS (Animate On Scroll) is a JavaScript library that allows you to add animations to elements when the user scrolls the page. It is useful for improving the user experience on your websites and making them more visually appealing.</p>
+
+
+
+```bash
+    git clone https://github.com/Juanes200122/Aos-Animate.git
+    cd Aos-Animate
+```
+<div align="right">
+    
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![CodePen](https://img.shields.io/badge/-CodePen-000000?style=flat&logo=codepen)
+
+</div>
 
 ## ⚙ Installation
 
