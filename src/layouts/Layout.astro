@@ -1,0 +1,47 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+
+
+		<meta name="description" content="Learn how to use AOS (Animate on Scroll) to add CSS3 animations to your projects. Tutorials, examples, and more by Juan Esteban.">
+		<meta name="keywords" content="AOS, animate on scroll, CSS3, scroll animations, CSS animations, frontend development, Juan Esteban">
+		<meta name="author" content="Juan Esteban Arevalo Contreras">
+		<meta name="robots" content="index, follow">
+		<meta property="og:title" content="AOS - Animate on Scroll with CSS3 | Juan Esteban">
+		<meta property="og:description" content="Learn how to use AOS (Animate on Scroll) to add CSS3 animations to your projects. Tutorials, examples, and more by Juan Esteban.">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://aos-animate.vercel.app/">
+		<meta property="og:image" content="aos-animate.PNG">
+		
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+
+		<script>
+			import AOS from 'aos';
+			import 'aos/dist/aos.css';
+			// ..
+			AOS.init();
+		</script>
+	</body>
+</html>
+<style is:global>	
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+	* {margin: 0;padding: 0;text-decoration: none;list-style: none;box-sizing: border-box;font-family: "Poppins", sans-serif;}	
+	html {scroll-behavior: smooth;}
+</style>
+

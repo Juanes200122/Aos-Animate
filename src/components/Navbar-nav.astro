@@ -1,0 +1,79 @@
+---
+
+---
+
+<section class="w-[100%] fixed top-0 left-0 z-[9999999999999999999999]">
+    <header class="flex justify-between items-center h-[70px] px-10 relative">
+        <img src="image/Exclude.webp" alt="" width="150px">
+        <nav class="nav_none-600">
+            <ul class="flex gap-5 text-white [&>li]:rounded [&>li]:p-2">
+                <li class="hover:bg-black/5 relative [&>div]:hover:flex">
+                    <a href="#animation" class="flex justify-center items-center">
+                        Aos-Animation
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="w-4 h-4 ml-1"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"></path></svg>
+                    </a>
+                    <div class="absolute justify-center w-max right-0 p-3 gap-[10px] border-2 border-[#282828] rounded hidden bg-black">                        
+                        <div class="grid grid-cols-1 grid-rows-max-content gap-1">
+                            <div class="w-max gap-1 grid grid-cols-3 z-50 grid-rows-max-content">
+                                <a href="#FADE" class="h-[48px] bg-[#282828] p-3 rounded hover:bg-white hover:text-black">
+                                    <div class="w-[200px] flex justify-between">
+                                        <span>Fade</span>
+                                        <span class="text-gray-500 text-sm">8</span>
+                                    </div>                                
+                                </a>
+                                <a href="#FLIP" class="h-[48px] bg-[#282828] p-3 rounded hover:bg-white hover:text-black">
+                                    <div class="w-[200px] flex justify-between">
+                                        <span>Flip</span>
+                                        <span class="text-gray-500 text-sm">4</span>
+                                    </div>                                
+                                </a>
+                                <a href="#ZOOM" class="h-[48px] bg-[#282828] p-3 rounded hover:bg-white hover:text-black">
+                                    <div class="w-[200px] flex justify-between">
+                                        <span>Zoom</span>
+                                        <span class="text-gray-500 text-sm">10</span>
+                                    </div>                                
+                                </a>                         
+                                <a href="#DIFER" class="h-[48px] bg-[#282828] p-3 rounded hover:bg-white hover:text-black [&>div>span>span]:hover:bg-green-500">
+                                    <div class="w-[180p200pxx] flex justify-between">
+                                        <span>Diferent settings <span class="text-[12px] bg-red-500 p-1 rounded-md text-white">NEW</span></span>
+                                        <span class="text-gray-500 text-sm">6</span>
+                                    </div>                                
+                                </a>   
+                                <a href="#ANCHOR" class="h-[48px] bg-[#282828] p-3 rounded hover:bg-white hover:text-black">
+                                    <div class="w-[200px] flex justify-between">
+                                        <span>Anchor placement</span>
+                                        <span class="text-gray-500 text-sm">5</span>
+                                    </div>                                
+                                </a>                                                                
+                            </div>                         
+                        </div>                        
+                    </div>
+                </li>
+                <li class="hover:bg-black/5">
+                    <a href="#CDN">CDN</a>
+                </li>
+                <li class="hover:bg-black/5">
+                    <a href="https://github.com/Juanes200122" target="_blank">Github</a>
+                </li>               
+            </ul>
+        </nav>
+    </header>
+</section>
+
+<style>
+    header:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: -webkit-fill-available;
+        background-color: #00000000;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        top: -10px;
+        left: 0;
+        z-index: -1;
+    }
+    @media (max-width: 1000px) {
+        .nav_none-600 { display: none; }
+    }
+</style>
