@@ -1,3 +1,8 @@
+![Banner](public/aos-animate.PNG)
+<p align="center" style="color: white;">
+    <img src="https://profile-counter.glitch.me/Juanes200122/count.svg" />
+</p>
+
 ## ⚙ Installation
 
 ### Basic
